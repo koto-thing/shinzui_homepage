@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* 固定ヘッダーの高さ(16/64px)の分だけスクロール位置を下にずらし、コンテンツが隠れないようにします */
+    scroll-padding-top: 4rem;
+  }
+}
