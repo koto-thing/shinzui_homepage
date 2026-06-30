@@ -14,12 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const app = document.querySelector('#app');
   if (!app) return;
 
-  // 1. メインコンテナ（<main>）を生成して配置
+  // メインコンテナ（<main>）を生成して配置
   const main = document.createElement('main');
   main.className = 'flex-grow';
   app.appendChild(main);
 
-  // 2. 各ページ・セクションの中身をDOMに挿入
+  // 各ページ・セクションの中身をDOMに挿入
   initHome(main);
   initNews(main);
   initPlay(main);
@@ -27,9 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initSupport(main);
   initDownload(main);
 
-  // 3. 共通フッターの挿入
+  // 共通フッターの挿入
   initFooter(app);
 
-  // 4. 共通ヘッダーの挿入（セクション生成後に呼び出すことで、Scrollspyが正常に動作します）
+  // 共通ヘッダーの挿入
   initHeader();
 });
