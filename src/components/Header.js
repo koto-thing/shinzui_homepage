@@ -16,7 +16,7 @@ export function initHeader() {
           </a>
         </div>
 
-        <!-- ナビゲーションリンク (デスクトップ版) -->
+        <!-- ナビゲーションリンク -->
         <nav class="hidden md:flex items-center gap-8">
           <a href="#home" class="nav-link text-sm font-medium text-neutral-600 hover:text-neutral-950 dark:text-neutral-400 dark:hover:text-white transition-colors relative py-2" data-page="home">
             ホーム
@@ -38,7 +38,7 @@ export function initHeader() {
           </a>
         </nav>
 
-        <!-- アクションボタン (デスクトップ版) -->
+        <!-- アクションボタン -->
         <div class="flex items-center gap-4">
           <!-- モバイルメニュー開閉ボタン -->
           <button id="mobile-menu-btn" class="rounded-lg p-2 text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-800 md:hidden" aria-label="メニューを開閉" aria-expanded="false">
